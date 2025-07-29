@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <form action="cadastrar.php" method="POST">
+      <h1>Cadastro de Usuário</h1>
+
+      <div class="input-container">
+        <input name="email" placeholder="Email" type="email" required>
+        <img width="20" height="20" src="https://img.icons8.com/puffy-filled/32/user.png" alt="user" />
+      </div>
+
+      <div class="input-container">
+        <input name="senha" placeholder="Senha" type="password" required>
+        <img width="20" height="20" src="https://img.icons8.com/sf-black-filled/64/password.png" alt="password" />
+      </div>
+
+      <button type="submit" class="submit-button">Cadastrar</button>
+
+      <div class="register-link">
+        <p>Já tem uma conta? <a href="index.html">Voltar ao login</a></p>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
